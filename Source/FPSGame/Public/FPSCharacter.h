@@ -85,6 +85,9 @@ public:
 
 	virtual void OnJumped_Implementation() override;
 
+	UPROPERTY(BlueprintReadOnly,Category="Gameplay")
+	bool bIsCarryingObjective;
+
 protected:
 	
 	/** Fires a projectile. */
